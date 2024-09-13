@@ -1,0 +1,42 @@
+[
+    {
+		"page": "all",
+		"name": "top",
+		"type": "coordinates",
+		"x": 0,
+		"y": 0,
+		"height": 140,
+		"width": 760,
+		"unit": "px"
+	},
+	{
+		"page": "all",
+		"name": "right",
+		"type": "coordinates",
+		"x": 366,
+		"y": 0,
+		"height": 1024,
+		"width": 402,
+		"unit": "px"
+	},
+	{
+		"page": "all",
+		"name": "left",
+		"type": "coordinates",
+		"x": 0,
+		"y": 0,
+		"height": 1024,
+		"width": 15,
+		"unit": "px"
+	},
+	{
+		"page": "all",
+		"name": "bottom",
+		"type": "coordinates",
+		"x": 0,
+		"y": 445,
+		"height": 579,
+		"width": 768,
+		"unit": "px"
+	}
+]
