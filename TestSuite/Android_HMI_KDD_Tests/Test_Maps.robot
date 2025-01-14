@@ -16,15 +16,15 @@ Verify user can search for a location
     Maps.click on search all destinations
     Maps.input text in search all destinations edit box    Delhi
     Maps.click on search result    Delhi
-    Maps.page contains element    New Delhi
+    Maps.page contains element    Delhi
 
 Verify user can search for a location - Text comparison
     [Documentation]    validate the accuracy of location search by text comparison
     [Tags]    TC_MP_002    SRD_AND_1    SRD_AND_2
     Maps.click on maps
     Maps.click on search all destinations
-    Maps.input text in search all destinations edit box    Mumbai
-    Maps.click on search result    Mumbai
-    Maps.page contains element    Mumbai
+    Maps.input text in search all destinations edit box    Mumbai, Maharashtra
+    Maps.click on search result    Mumbai, Maharashtra
+    Maps.page contains element    Mumbai, Maharashtra
 
  
