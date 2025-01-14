@@ -18,7 +18,7 @@ Verify user can search for a location
     Maps.click on search result    Delhi
     Maps.page contains element    Delhi
 
-Verify user can search for a location - Text comparison
+Verify user can search for a location - Multiline
     [Documentation]    validate the accuracy of location search by text comparison
     [Tags]    TC_MP_002    SRD_AND_1    SRD_AND_2
     Maps.click on maps
