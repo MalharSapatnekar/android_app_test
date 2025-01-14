@@ -1,6 +1,6 @@
 *** Variables ***
 ${EVIDENCE_FOLDER}       ${OUTPUT_DIR}/
-${REMOTE_URL}           http://localhost:4723/wd/hub
+${REMOTE_URL}           http://host.docker.internal:4723/wd/hub
 ${commandTimeout}=      6000
 
 ${PLATFORM_NAME}    Android
