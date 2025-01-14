@@ -1,6 +1,6 @@
 *** Settings ***
 Resource    ${CURDIR}/../../Resources/BusinessObjects/PlayStoreKeywords.resource
-Suite Teardown   Close Application
+Test Teardown   Close Application
 
 
 *** Test Cases ***

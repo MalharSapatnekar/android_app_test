@@ -5,7 +5,7 @@ ${commandTimeout}=      6000
 
 ${PLATFORM_NAME}    Android
 ${AUTOMATION_NAME}    UiAutomator2
-${DEVICE_NAME}    emulator-5554
+${DEVICE_NAME}    automotive_1408p_landscape_with_play
 
 
 ${MAPS_APP_PACKAGE}    com.google.android.apps.maps

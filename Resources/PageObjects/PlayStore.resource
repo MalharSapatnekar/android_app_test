@@ -14,7 +14,8 @@ Start PlayStore App
     Open Application        ${REMOTE_URL}     platformName=${PLATFORM_NAME}    automationName=${AUTOMATION_NAME}    deviceName=${DEVICE_NAME}
         ...                     newCommandTimeout=${commandTimeout}       appPackage=${PLAYSTORE_APP_PACKAGE}    appActivity=${PLAYSTORE_APP_ACTIVITY}
 Reset App
-    Reset Application
+    # Reset Application API not supported anymore
+    Sleep    1
 click on search button
     Wait For And Click Element    //android.widget.ImageView[@bounds='[539,78][578,117]']    timeout=10
 

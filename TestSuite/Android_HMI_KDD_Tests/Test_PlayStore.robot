@@ -1,9 +1,8 @@
 *** Settings ***
 Resource    ${CURDIR}/../Resources/PageObjects/PlayStore.resource
  
-Suite Setup      Start PlayStore App
-Test Setup       Reset App
-Suite Teardown   Close Application
+Test Setup      Start PlayStore App
+Test Teardown   Close Application
 
 
 *** Test Cases ***
