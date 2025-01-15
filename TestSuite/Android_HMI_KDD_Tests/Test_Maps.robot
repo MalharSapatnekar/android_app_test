@@ -3,8 +3,8 @@ Library    String
 Resource    ${CURDIR}/../../Resources/PageObjects/Maps.resource
 Resource    ${CURDIR}/../../Resources/Variables/variables.resource
  
-Test Setup      Start Maps App
-Test Teardown   Close Application
+Suite Setup      Start Maps App
+Suite Teardown   Close Application
 
 
 
